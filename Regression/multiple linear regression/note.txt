@@ -1,0 +1,22 @@
+
+y = b0 + b1x1 + b2x2 + b3x3 + b4D1
+(Dependent variable [y])
+(Independent variable [x])
+
+Assumptions of a linear regression:
+1. Linearity
+2. Homoscedasticity
+3. Multivariate normality
+4. Independence of errors
+5. Lack of multicollinearity
+
+categorical variables in linear regression are dummy variable, in our example, create column for each state with values 0 and 1:
+new york   ;   california ;
+    1               0
+    0               1
+    0               1
+    1               0
+
+dont use all dummy variables because d2 = 1 - d1
+this is called dummy variable trap
+
