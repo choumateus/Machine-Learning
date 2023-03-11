@@ -1,6 +1,8 @@
 from dash import Dash, dcc , html
 from dash.dependencies import Input, Output, State
 
+#STATE EH SO PARA APARECER DEPOIS QUE DA UM ENTER
+
 app = Dash(__name__)
 app.layout = html.Div([
     dcc.Input(id = 'input-1-state', type = 'text', value = 'Montreal'),
